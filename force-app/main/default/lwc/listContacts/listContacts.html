@@ -1,0 +1,12 @@
+<template>
+        <lightning-card title="LWC Contacts">
+                <lightning-icon icon-name="standard:contact" alternative-text="Contacts" title="Contact"></lightning-icon>
+                <lightning-datatable title="Contactos"
+                        key-field="Id"
+                        data={contacts.data}
+                        columns={columns}
+                        show-row-number-column>
+                </lightning-datatable>
+
+        </lightning-card>
+</template>
